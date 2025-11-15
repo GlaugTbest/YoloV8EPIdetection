@@ -1,0 +1,13 @@
+train: data/train/images
+val: data/valid/images
+test: data/test/images
+
+nc: 11
+names: ['earplug', 'goggles', 'hairnet', 'helmet', 'no_earplug', 'no_goggles', 'no_hairnet', 'no_helmet', 'no_vest', 'person', 'vest']
+
+roboflow:
+  workspace: epiviena
+  project: ppe-2-reduced-bxf69
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/epiviena/ppe-2-reduced-bxf69/dataset/1
