@@ -2,12 +2,25 @@ train: data/train/images
 val: data/valid/images
 test: data/test/images
 
-nc: 11
-names: ['earplug', 'goggles', 'hairnet', 'helmet', 'no_earplug', 'no_goggles', 'no_hairnet', 'no_helmet', 'no_vest', 'person', 'vest']
+nc: 15
+names: [
+  'earplug',
+  'goggles', 
+  'hairnet', 
+  'helmet',
+  'no_earplug', 
+  'no_goggles', 
+  'no_hairnet', 
+  'no_helmet',
+  'person', 
+  'vest', 
+  'no_vest',
+  'gloves', 
+  'no_gloves',
+  'shoe_cover', 
+  'no_shoe_cover'
+]
 
 roboflow:
-  workspace: epiviena
-  project: ppe-2-reduced-bxf69
-  version: 1
-  license: CC BY 4.0
-  url: https://universe.roboflow.com/epiviena/ppe-2-reduced-bxf69/dataset/1
+  merged: true
+  note: "Dataset unificado automaticamente via fix_labels.py"
