@@ -1,20 +1,32 @@
-EPI Detection System using YOLOv8
+*EPI Detection System using YOLOv8*
+
+
 A real-time Personal Protective Equipment (PPE) detection system designed for industrial environments, specifically targeting water bottling and food processing facilities. This application uses YOLOv8 for computer vision tasks and provides a modern graphical interface for monitoring compliance with safety equipment regulations.
 Features
 
 Real-time Detection: Monitors live webcam feed for PPE compliance
+
+
 Multi-class Detection: Identifies 9 different PPE categories including:
 
 Person detection
+
 Helmet (present/absent)
+
 Safety goggles (present/absent)
+
 Ear protection (present/absent)
+
 Hairnet/cap (present/absent)
 
 
 Selective Monitoring: Choose which PPE items to track via checkbox interface
+
 Event Logging: Real-time log system displaying all detection events with timestamps
+
 Modern UI: Clean, dark-themed interface built with Tkinter
+
+
 
 Technical Details
 
