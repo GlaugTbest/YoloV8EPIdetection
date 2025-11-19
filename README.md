@@ -6,6 +6,10 @@ Features
 
 Real-time Detection: Monitors live webcam feed for PPE compliance
 
+*HUGGING FACE SPACE RUNNING THE DETECTION APP* 
+https://huggingface.co/spaces/glaugTbest/YoloV8Glaug
+
+
 
 Multi-class Detection: Identifies 9 different PPE categories including:
 
@@ -25,7 +29,6 @@ Selective Monitoring: Choose which PPE items to track via checkbox interface
 Event Logging: Real-time log system displaying all detection events with timestamps
 
 Modern UI: Clean, dark-themed interface built with Tkinter
-
 
 
 Technical Details
